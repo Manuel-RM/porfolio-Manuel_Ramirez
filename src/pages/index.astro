@@ -7,13 +7,13 @@ import LinkedinIcon from "../components/icons/LinkedinIcon.astro";
 import MailIcon from "../components/icons/MailIcon.astro";
 import Case from "../components/icons/Case.astro";
 import CodeIcon from "../components/icons/CodeIcon.astro";
-import ContactIcon from "../components/icons/ContactIcon.astro";
 import SectionContainer from "../components/SectionContainer.astro";
 import SocialPill from "../components/SocialPill.astro";
 import Layout from "../layouts/Layout.astro";
-import AboutMe from "../components/icons/AboutMe.astro";
+import AboutMe from "../components/AboutMe.astro";
 import ToolsIcon from "../components/icons/ToolsIcon.astro";
 import Projects from "../components/Projects.astro";
+import AboutMeIcon from "../components/icons/AboutMeIcon.astro";
 ---
 
 <Layout
@@ -93,18 +93,10 @@ import Projects from "../components/Projects.astro";
 			<h2
 				class="text-3xl text-white font-semibold mb-6 items-center flex gap-x-3"
 			>
-				<AboutMe />
+				<AboutMeIcon />
 				Sobre mi
 			</h2>
-		</SectionContainer>
-
-		<SectionContainer id="contacto">
-			<h2
-				class="text-3xl text-white font-semibold mb-6 items-center flex gap-x-3"
-			>
-				<ContactIcon />
-				Contacto
-			</h2>
+			<AboutMe />
 		</SectionContainer>
 	</main>
 </Layout>
